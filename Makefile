@@ -8,6 +8,6 @@ install: local
 clear:
 	$(RM) $(INSTALLDIR)Papirus
 local:
-	find Papirus -type f -exec install -Dm644 '{}' "$(INSTALLDIR){}" \;
+	find Papirus{,-Dark} -type f -exec install -Dm644 '{}' "$(INSTALLDIR){}" \;
 
 uninstall: clear
