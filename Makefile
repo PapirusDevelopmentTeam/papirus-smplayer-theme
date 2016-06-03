@@ -1,4 +1,4 @@
-INSTALLDIR = $(DESTDIR)/usr/share/smplayer/themes/
+INSTALLDIR = $(DESTDIR)/usr/share/smplayer/themes
 RM = rm -rf
 
 all:
@@ -6,8 +6,8 @@ all:
 install: local
 
 clear:
-	$(RM) $(INSTALLDIR)Papirus
+	$(RM) $(INSTALLDIR)/Papirus{,-Dark}
 local:
-	find Papirus{,-Dark} -type f -exec install -Dm644 '{}' "$(INSTALLDIR){}" \;
+	find Papirus{,-Dark} -type f -exec install -Dm644 '{}' "$(INSTALLDIR)/{}" \;
 
 uninstall: clear
