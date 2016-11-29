@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smpla
 
 - wget
 - tar
-- filezilla
+- smplayer
 
 # Remove
 
