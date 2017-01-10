@@ -1,14 +1,31 @@
-INSTALLDIR = $(DESTDIR)/usr/share/smplayer/themes
-RM = rm -rf
-SHELL = /bin/bash
+all: install
 
-all:
+install:
+	mkdir -p $(DESTDIR)/usr/share/smplayer/themes
+	cp --no-preserve=mode,ownership -r \
+		Papirus \
+		PapirusDark \
+		$(DESTDIR)/usr/share/smplayer/themes
 
-install: local
+uninstall:
+	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/Papirus
+	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/PapirusDark
 
-clear:
-	$(RM) $(INSTALLDIR)/Papirus{,Dark}
-local:
-	find Papirus{,Dark} -type f -exec install -Dm644 '{}' "$(INSTALLDIR)/{}" \;
+_get_version:
+	$(eval DATE := $(shell git log -1 --format=%cd --date=format:%Y.%m.%d))
+	$(eval COUNT := $(shell git rev-list --all --count))
+	$(eval VERSION := $(DATE)-r$(COUNT))
 
-uninstall: clear
+push:
+	git push origin
+
+release: _get_version push
+	git tag -f $(VERSION)
+	git push origin --tags
+
+undo_release: _get_version
+	-git tag -d $(VERSION)
+	-git push --delete origin $(VERSION)
+
+
+.PHONY: all install uninstall _get_version push release undo_release
