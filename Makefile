@@ -4,11 +4,13 @@ install:
 	mkdir -p $(DESTDIR)/usr/share/smplayer/themes
 	cp --no-preserve=mode,ownership -r \
 		Papirus \
+		ePapirus \
 		PapirusDark \
 		$(DESTDIR)/usr/share/smplayer/themes
 
 uninstall:
 	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/Papirus
+	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/ePapirus
 	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/PapirusDark
 
 _get_version:

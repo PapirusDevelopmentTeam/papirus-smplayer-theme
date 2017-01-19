@@ -32,10 +32,13 @@ wget -O "/tmp/$gh_repo.tar.gz" \
 echo "=> Unpacking archive ..."
 tar -xzf "/tmp/$gh_repo.tar.gz" -C "$temp_dir"
 echo "=> Deleting old $gh_desc ..."
-sudo rm -rf "/usr/share/smplayer/themes/Papirus" "/usr/share/smplayer/themes/PapirusDark"
+sudo rm -rf "/usr/share/smplayer/themes/Papirus" \
+  "/usr/share/smplayer/themes/ePapirus" \
+  "/usr/share/smplayer/themes/PapirusDark"
 echo "=> Installing ..."
 sudo cp --no-preserve=mode,ownership -r \
   "$temp_dir/$gh_repo-master/Papirus" \
+  "$temp_dir/$gh_repo-master/ePapirus" \
   "$temp_dir/$gh_repo-master/PapirusDark" \
   /usr/share/smplayer/themes
 echo "=> Clearing cache ..."
