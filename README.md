@@ -20,12 +20,8 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smpla
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smplayer-theme/master/remove-papirus.sh | sh
 ```
 
-**NOTE**: Papirus and Papirus Dark themes already available on > SMPlayer 16.6
+# Packages
 
-# Unofficial packages
-Packages in this section are not part of the official repositories. If you have a trouble or a question please contact with package maintainer.
+Since SMPlayer version 16.6 and higher, Papirus and Papirus Dark themes were added to the package `smplayer` (`smplayer-themes` on Ubuntu).
 
-| **Distro** | **Maintainer** | **Package** |
-|:-----------|:---------------|:------------|
-
-**NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
+If you have SMPlayer lower that 16.6 you can just update it from the [official site](http://smplayer.sourceforge.net/en/downloads).
