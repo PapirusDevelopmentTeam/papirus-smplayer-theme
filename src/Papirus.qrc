@@ -1,5 +1,5 @@
 <RCC>
-	<qresource prefix="/">	
+	<qresource prefix="/">
 		<file>Papirus/add_bookmark.png</file>
 		<file>Papirus/a_marker.png</file>
 		<file>Papirus/angle.png</file>
