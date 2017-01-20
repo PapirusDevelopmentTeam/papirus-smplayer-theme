@@ -24,4 +24,4 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smpla
 
 Since SMPlayer version 16.6 and higher, Papirus and Papirus Dark themes were added to the package `smplayer` (`smplayer-themes` on Ubuntu).
 
-If you have SMPlayer lower that 16.6 you can just update it from the [official site](http://smplayer.sourceforge.net/en/downloads).
+If your version lower than 16.6 you can update SMPlayer from the [official site](http://smplayer.sourceforge.net/en/downloads).
