@@ -1,13 +1,18 @@
-#!/bin/bash
-echo "clear directories"
-rm {ePapirus,Papirus,PapirusDark}/*.png
+#!/usr/bin/env bash
 
-echo "convert icons"
-for file in ePapirus/*.svg; do rsvg-convert -f png $file > $file.png; done
-for file in Papirus/*.svg; do rsvg-convert -f png $file > $file.png; done
-for file in PapirusDark/*.svg; do rsvg-convert -f png $file > $file.png; done
-rename 's/\.svg\.png/\.png/g' Papirus/*.png
-rename 's/\.svg\.png/\.png/g' ePapirus/*.png
-rename 's/\.svg\.png/\.png/g' PapirusDark/*.png
+set -e
 
-echo "all done"
+THEMES=(
+	ePapirus
+	Papirus
+	PapirusDark
+)
+
+for theme in "${THEMES[@]}"; do
+	echo "=> Generate $theme ..."
+	find "$theme" -type f -name '*.svg' | while read file; do
+		dest_file="${file//.svg/.png}"
+		echo "Convert $file -> $dest_file"
+		rsvg-convert -f png "$file" -o "$dest_file"
+	done
+done
