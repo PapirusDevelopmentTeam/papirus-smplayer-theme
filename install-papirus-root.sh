@@ -36,6 +36,7 @@ sudo rm -rf "/usr/share/smplayer/themes/Papirus" \
   "/usr/share/smplayer/themes/ePapirus" \
   "/usr/share/smplayer/themes/PapirusDark"
 echo "=> Installing ..."
+sudo mkdir -p /usr/share/smplayer/themes
 sudo cp --no-preserve=mode,ownership -r \
   "$temp_dir/$gh_repo-master/Papirus" \
   "$temp_dir/$gh_repo-master/ePapirus" \
