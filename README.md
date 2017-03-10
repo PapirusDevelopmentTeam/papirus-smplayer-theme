@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smplayer-theme/master/preview.png" alt="preview"/>
+  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smplayer-theme/master/preview.png" alt="Preview Papirus Dark"/>
 </p>
 
-# Install / Update
+## Installation
+
+### Papirus Installer
+
+Use the scripts to install the latest version directly from this repo (independently on your distro):
+
+#### Install / Update
 
 ```
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smplayer-theme/master/install-papirus-root.sh | sh
 ```
 
-**Depends:**
-
-- wget
-- tar
-- smplayer
-
-# Remove
+#### Remove
 
 ```
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smplayer-theme/master/remove-papirus.sh | sh
 ```
 
-# Packages
+### Packages
 
 Since SMPlayer version 16.6 and higher, Papirus and Papirus Dark themes were added to the package `smplayer` (`smplayer-themes` on Ubuntu).
 
