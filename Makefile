@@ -1,17 +1,19 @@
+PREFIX ?= /usr
+
 all:
 
 install:
-	mkdir -p $(DESTDIR)/usr/share/smplayer/themes
-	cp --no-preserve=mode,ownership -r \
+	mkdir -p $(DESTDIR)$(PREFIX)/share/smplayer/themes
+	cp -R \
 		Papirus \
 		ePapirus \
 		PapirusDark \
-		$(DESTDIR)/usr/share/smplayer/themes
+		$(DESTDIR)$(PREFIX)/share/smplayer/themes
 
 uninstall:
-	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/Papirus
-	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/ePapirus
-	-rm -rf $(DESTDIR)/usr/share/smplayer/themes/PapirusDark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/Papirus
+	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/ePapirus
+	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/PapirusDark
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
