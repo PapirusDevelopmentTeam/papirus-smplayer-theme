@@ -6,6 +6,8 @@ THEMES=(
 	ePapirus
 	Papirus
 	PapirusDark
+	PapirusAdapta
+	PapirusAdaptaNokto
 )
 
 for theme in "${THEMES[@]}"; do

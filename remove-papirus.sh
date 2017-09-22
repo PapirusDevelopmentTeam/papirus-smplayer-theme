@@ -28,4 +28,6 @@ echo "=> Removing $gh_desc ..."
 sudo rm -rf "/usr/share/smplayer/themes/Papirus" \
   "/usr/share/smplayer/themes/ePapirus"
   "/usr/share/smplayer/themes/PapirusDark"
+  "/usr/share/smplayer/themes/PapirusAdapta"
+  "/usr/share/smplayer/themes/PapirusAdaptaNokto"
 echo "=> Done!"

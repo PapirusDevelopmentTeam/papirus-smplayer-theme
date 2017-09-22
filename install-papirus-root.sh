@@ -34,13 +34,17 @@ tar -xzf "/tmp/$gh_repo.tar.gz" -C "$temp_dir"
 echo "=> Deleting old $gh_desc ..."
 sudo rm -rf "/usr/share/smplayer/themes/Papirus" \
   "/usr/share/smplayer/themes/ePapirus" \
-  "/usr/share/smplayer/themes/PapirusDark"
+  "/usr/share/smplayer/themes/PapirusDark" \
+  "/usr/share/smplayer/themes/PapirusAdapta" \
+  "/usr/share/smplayer/themes/PapirusAdaptaNokto"
 echo "=> Installing ..."
 sudo mkdir -p /usr/share/smplayer/themes
 sudo cp -R \
   "$temp_dir/$gh_repo-master/Papirus" \
   "$temp_dir/$gh_repo-master/ePapirus" \
   "$temp_dir/$gh_repo-master/PapirusDark" \
+  "$temp_dir/$gh_repo-master/PapirusAdapta" \
+  "$temp_dir/$gh_repo-master/PapirusNokto" \
   /usr/share/smplayer/themes
 echo "=> Clearing cache ..."
 rm -rf "/tmp/$gh_repo.tar.gz" "$temp_dir"
