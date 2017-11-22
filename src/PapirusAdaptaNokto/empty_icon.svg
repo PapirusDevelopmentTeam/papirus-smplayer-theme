@@ -51,7 +51,7 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#cfd8dc; } .ColorScheme-Highlight { color:#00bcd4; } .ColorScheme-ButtonBackground { color:#cfd8dc; }
+   .ColorScheme-Text { color:#eeefef; } .ColorScheme-Highlight { color:#00bcd4; } .ColorScheme-ButtonBackground { color:#eeefef; }
   </style>
   </defs>
 </svg>

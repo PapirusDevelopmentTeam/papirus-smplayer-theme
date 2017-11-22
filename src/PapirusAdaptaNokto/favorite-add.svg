@@ -51,16 +51,16 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#cfd8dc; }
+   .ColorScheme-Text { color:#eeefef; }
   </style>
     <style
        id="current-color-scheme-3"
        type="text/css">
-   .ColorScheme-Text { color:#cfd8dc; }
+   .ColorScheme-Text { color:#eeefef; }
   </style>
   </defs>
   <path
-     style="fill:#cfd8dc;opacity:1;fill-opacity:1"
+     style="fill:#eeefef;opacity:1;fill-opacity:1"
      d="M 4 1 C 2.3432 1 1 2.567 1 4.5 C 1 9.1667 6 12.6667 8 15 C 8.2674261 14.688007 8.5936429 14.351759 8.9492188 13.998047 A 1.0001 1.0001 0 0 1 8 13 L 8 11 A 1.0001 1.0001 0 0 1 9 10 L 10 10 L 10 9 A 1.0001 1.0001 0 0 1 11 8 L 13 8 A 1.0001 1.0001 0 0 1 13.830078 8.4414062 C 14.532717 7.2356559 15 5.9225831 15 4.5 C 15 2.567 13.6568 1 12 1 C 9 1 8 3 8 3 C 8 3 7 1 4 1 z M 11 9 L 11 11 L 9 11 L 9 13 L 11 13 L 11 15 L 13 15 L 13 13 L 15 13 L 15 11 L 13 11 L 13 9 L 11 9 z "
      id="path7" />
 </svg>

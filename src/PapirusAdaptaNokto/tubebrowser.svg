@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#cfd8dc; }
+   .ColorScheme-Text { color:#eeefef; }
   </style>
   </defs>
   <path
-     style="opacity:1;fill:#cfd8dc;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#eeefef;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 4 1 C 1.784 1 0 2.784 0 5 L 0 11 C 0 13.216 1.784 15 4 15 L 12 15 C 14.216 15 16 13.216 16 11 L 16 5 C 16 2.784 14.216 1 12 1 L 4 1 z M 4 4 L 12 8 L 4 12 L 4 4 z "
      id="rect4143" />
 </svg>
