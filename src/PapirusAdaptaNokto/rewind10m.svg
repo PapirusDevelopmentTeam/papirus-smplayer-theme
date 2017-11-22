@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#eeefef; }
+   .ColorScheme-Text { color:#cfd8dc; }
   </style>
   </defs>
   <path
-     style="opacity:1;fill:#eeefef;fill-opacity:1"
+     style="opacity:1;fill:#cfd8dc;fill-opacity:1"
      d="m 14.999652,4 0,8 -3,-1.714844 0,1.714844 L 7.9996522,9.7148438 7.9996522,12 0.99965225,8 7.9996522,4 l 0,2.2851562 L 11.999652,4 l 0,1.7148438 C 13.473513,4.8751095 15.02668,4 14.999652,4 Z"
      id="path4141"
      inkscape:connector-curvature="0" />

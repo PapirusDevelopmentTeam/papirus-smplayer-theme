@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#eeefef; } .ColorScheme-Highlight { color:#00bcd4; } .ColorScheme-ButtonBackground { color:#eeefef; }
+   .ColorScheme-Text { color:#cfd8dc; } .ColorScheme-Highlight { color:#00bcd4; } .ColorScheme-ButtonBackground { color:#cfd8dc; }
   </style>
   </defs>
   <path
-     style="color:#eeefef;fill:currentColor"
+     style="color:#cfd8dc;fill:currentColor"
      d="m 8,1.000439 c -0.554,0 -1,0.446 -1,1 l 0,5.003906 c 0,0.554 0.446,1 1,1 0.554,0 1,-0.446 1,-1 L 9,2.000439 c 0,-0.554 -0.446,-1 -1,-1 z m 3.037109,1.9882812 a 1.0001,1.0001 0 0 0 -0.193359,0.011719 1.0001,1.0001 0 0 0 -0.4375,1.8125 c 1.7785,1.3304 2.1428,3.81525 0.8125,5.5937498 -1.3304,1.7785 -3.8465,2.1116 -5.625,0.78125 C 3.81525,9.8575888 3.48215,7.3726892 4.8125,5.5941892 c 0.21656,-0.28951 0.4639,-0.52896 0.75,-0.75 a 1.0032039,1.0032039 0 0 0 -1.21875,-1.59375 c -0.42915,0.33156 -0.83146,0.72204 -1.15625,1.15625 -1.9778,2.644 -1.42525,6.4285498 1.21875,8.4062498 2.644,1.9778 6.42855,1.42525 8.40625,-1.21875 1.9778,-2.6439998 1.42525,-6.4285498 -1.21875,-8.4062498 a 1.0001,1.0001 0 0 0 -0.556641,-0.199219 z"
      id="rect6"
      class="ColorScheme-Text"

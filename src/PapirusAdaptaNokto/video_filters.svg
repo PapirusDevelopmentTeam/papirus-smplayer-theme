@@ -55,11 +55,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#eeefef; }
+   .ColorScheme-Text { color:#cfd8dc; }
   </style>
   </defs>
   <path
-     style="color:#eeefef;opacity:1;fill:currentColor"
+     style="color:#cfd8dc;opacity:1;fill:currentColor"
      class="ColorScheme-Text"
      d="m 3,2 4,4 0.019531,4 0.96875,4 L 9,10 9,6 13,2 Z"
      id="path7"

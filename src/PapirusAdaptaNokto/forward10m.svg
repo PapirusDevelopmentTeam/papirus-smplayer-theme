@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#eeefef; }
+   .ColorScheme-Text { color:#cfd8dc; }
   </style>
   </defs>
   <path
-     style="opacity:1;fill:#eeefef;fill-opacity:1"
+     style="opacity:1;fill:#cfd8dc;fill-opacity:1"
      d="M 1 4 L 1 12 L 4 10.285156 L 4 12 L 8 9.7148438 L 8 12 L 15 8 L 8 4 L 8 6.2851562 L 4 4 L 4 5.7148438 C 2.5261392 4.8751095 0.97297246 4 1 4 z "
      id="path4141" />
 </svg>
