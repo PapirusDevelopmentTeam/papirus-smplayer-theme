@@ -44,7 +44,7 @@ sudo cp -R \
   "$temp_dir/$gh_repo-master/ePapirus" \
   "$temp_dir/$gh_repo-master/PapirusDark" \
   "$temp_dir/$gh_repo-master/PapirusAdapta" \
-  "$temp_dir/$gh_repo-master/PapirusNokto" \
+  "$temp_dir/$gh_repo-master/PapirusAdaptaNokto" \
   /usr/share/smplayer/themes
 echo "=> Clearing cache ..."
 rm -rf "/tmp/$gh_repo.tar.gz" "$temp_dir"
