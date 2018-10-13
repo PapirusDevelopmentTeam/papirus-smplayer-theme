@@ -25,3 +25,23 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-smpla
 Since SMPlayer version 16.6 and higher, Papirus and Papirus Dark themes were added to the package `smplayer` (`smplayer-themes` on Ubuntu).
 
 If your version lower than 16.6 you can update SMPlayer from the [official site](http://smplayer.sourceforge.net/en/downloads).
+
+###  Manual Install
+
+1. Install dependencies:
+
+    - git
+    - make
+    - librsvg2-bin
+    - libqt4-dev-bin
+
+2. Run the following commands as normal user:
+
+    ```
+    git clone https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme.git
+    cd papirus-smplayer-theme
+    make build
+    sudo make install
+    ```
+
+3. Start SMPlayer and choose a theme.
