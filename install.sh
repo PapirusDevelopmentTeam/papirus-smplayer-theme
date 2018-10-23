@@ -24,9 +24,9 @@ cat <<- EOF
 
 EOF
 
-: "${THEMES:=Papirus ePapirus PapirusDark PapirusAdapta PapirusAdaptaNokto}"
 : "${DESTDIR:=/usr/share/smplayer/themes}"
 : "${TAG:=master}"
+: "${THEMES:=Papirus ePapirus PapirusDark PapirusAdapta PapirusAdaptaNokto}"
 : "${uninstall:=false}"
 
 _msg() {
@@ -50,7 +50,7 @@ _sudo() {
 _download() {
     _msg "Getting the latest version from GitHub ..."
     wget -O "$temp_file" \
-        "https://github.com/PapirusDevelopmentTeam/$gh_repo/archive/master.tar.gz"
+        "https://github.com/PapirusDevelopmentTeam/$gh_repo/archive/$TAG.tar.gz"
     _msg "Unpacking archive ..."
     tar -xzf "$temp_file" -C "$temp_dir"
 }
