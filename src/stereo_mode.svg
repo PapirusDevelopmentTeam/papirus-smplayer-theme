@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#5c616c; }
+   .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-ButtonBackground { color:#dfdfdf; }
   </style>
   </defs>
   <path
-     style="color:#5c616c;fill:currentColor"
+     style="color:#dfdfdf;fill:currentColor"
      d="M 8 0 A 8 8 0 0 0 0 8 A 8 8 0 0 0 8 16 A 8 8 0 0 0 16 8 A 8 8 0 0 0 8 0 z M 8 2 A 6 6 0 0 1 14 8 A 6 6 0 0 1 8 14 A 6 6 0 0 1 2 8 A 6 6 0 0 1 8 2 z M 8 5 A 3 3 0 0 0 5 8 A 3 3 0 0 0 8 11 A 3 3 0 0 0 11 8 A 3 3 0 0 0 8 5 z "
      id="path4" />
 </svg>

@@ -56,11 +56,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#5c616c; }
+   .ColorScheme-Text { color:#dfdfdf; }
   </style>
   </defs>
   <path
-     style="opacity:1;fill:#5c616c;fill-opacity:1"
+     style="opacity:1;fill:#dfdfdf;fill-opacity:1"
      d="M 2 1.0097656 C 0.892 1.0097656 0 1.9017656 0 3.0097656 L 0 13.009766 C 0 14.117766 0.892 15.009766 2 15.009766 L 14 15.009766 C 15.108 15.009766 16 14.117766 16 13.009766 L 16 3.0097656 C 16 1.9017656 15.108 1.0097656 14 1.0097656 L 2 1.0097656 z M 3 5 L 5 5 L 5 7 L 3 7 L 3 5 z M 7 5 L 9 5 L 9 7 L 7 7 L 7 5 z M 11 5 L 13 5 L 13 7 L 11 7 L 11 5 z M 3 9 L 5 9 L 5 11 L 3 11 L 3 9 z M 7 9 L 9 9 L 9 11 L 7 11 L 7 9 z M 11 9 L 13 9 L 13 11 L 11 11 L 11 9 z "
      id="path4143" />
 </svg>

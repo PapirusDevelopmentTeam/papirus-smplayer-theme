@@ -33,7 +33,7 @@ If your version lower than 16.6 you can update SMPlayer from the [official site]
     - git
     - make
     - librsvg2-bin
-    - libqt4-dev-bin
+    - qtbase5-dev-tools
 
 2. Run the following commands as normal user:
 

@@ -14,16 +14,12 @@ install:
 		Papirus \
 		ePapirus \
 		PapirusDark \
-		PapirusAdapta \
-		PapirusAdaptaNokto \
 		$(DESTDIR)$(PREFIX)/share/smplayer/themes
 
 uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/Papirus
 	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/ePapirus
 	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/PapirusDark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/PapirusAdapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/smplayer/themes/PapirusAdaptaNokto
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))

@@ -26,7 +26,7 @@ EOF
 
 : "${DESTDIR:=/usr/share/smplayer/themes}"
 : "${TAG:=master}"
-: "${THEMES:=Papirus ePapirus PapirusDark PapirusAdapta PapirusAdaptaNokto}"
+: "${THEMES:=Papirus ePapirus PapirusDark}"
 : "${uninstall:=false}"
 
 _msg() {

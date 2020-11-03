@@ -51,16 +51,16 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#5c616c; }
+   .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-ButtonBackground { color:#dfdfdf; }
   </style>
     <style
        id="current-color-scheme-6"
        type="text/css">
-   .ColorScheme-Text { color:#5c616c; }
+   .ColorScheme-Text { color:#dfdfdf; }
   </style>
   </defs>
   <path
-     style="opacity:1;fill:#5c616c;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#dfdfdf;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 4 1 C 1.7839999 1 5.9211895e-16 2.784 0 5 L 0 11 C 0 13.216 1.7839999 15 4 15 L 8.0292969 15 C 7.3927536 14.160948 7 13.127971 7 12 C 7 11.418523 7.1199607 10.86792 7.3046875 10.347656 L 4 12 L 4 4 L 10.507812 7.2539062 C 10.982387 7.1032945 11.477322 7 12 7 C 13.638115 7 15.086554 7.8098903 16 9.0371094 L 16 5 C 16 2.7839999 14.216 1 12 1 L 4 1 z M 12 8 C 9.7909 8 8 9.7909 8 12 C 8 14.2091 9.7909 16 12 16 C 14.2091 16 16 14.2091 16 12 C 16 9.7909 14.2091 8 12 8 z M 12 9 A 3 3 0 0 1 15 12 L 14 12 A 2 2 0 0 0 12 10 L 12 9 z M 9 12 L 10 12 A 2 2 0 0 0 12 14 L 12 15 A 3 3 0 0 1 9 12 z "
      id="rect4143" />
   <g

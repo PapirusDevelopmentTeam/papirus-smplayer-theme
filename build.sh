@@ -8,8 +8,6 @@ declare -a THEMES=(
 	ePapirus
 	Papirus
 	PapirusDark
-	PapirusAdapta
-	PapirusAdaptaNokto
 )
 
 readonly TAB=$'\t'
@@ -33,32 +31,20 @@ for theme in "${THEMES[@]}"; do
 		ePapirus)
 			theme_name="$theme"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#5c616c/#6e6e6e/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
+				-e 's/#dfdfdf/#6e6e6e/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 		Papirus)
 			theme_name="$theme"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#5c616c/#5c616c/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
+				-e 's/#dfdfdf/#444444/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 		PapirusDark)
 			theme_name="Papirus Dark"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#5c616c/#d3dae3/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
-			;;
-		PapirusAdapta)
-			theme_name="Papirus Adapta"
-			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#5c616c/#414c52/gI' \
-				-e 's/#5294e2/#00bcd4/gI' '{}' \;
-			;;
-		PapirusAdaptaNokto)
-			theme_name="Papirus Adapta Nokto"
-			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#5c616c/#cfd8dc/gI' \
-				-e 's/#5294e2/#00bcd4/gI' '{}' \;
+				-e 's/#dfdfdf/#dfdfdf/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 	esac
 
@@ -94,5 +80,5 @@ for theme in "${THEMES[@]}"; do
 	EOF
 
 	# Compile <theme>.rcc
-	rcc -binary "$BUILD_DIR/$theme.qrc" -o "$dest_theme_dir/$theme.rcc"
+	/usr/lib/qt5/bin/rcc -binary "$BUILD_DIR/$theme.qrc" -o "$dest_theme_dir/$theme.rcc"
 done
